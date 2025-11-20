@@ -6,7 +6,7 @@ from transformers import pipeline
 from src.config import SUMMARIZER_MODEL_NAME
 
 
-torch.set_num_threads(1)
+torch.set_num_threads(1) 
 
 
 class BaselineSummarizer:
